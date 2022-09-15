@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { useRouter } from "next/router";
+import Layout from "../../components/Layout"
 
 export default function EventPage() {
+
   return (
-    <div>
-      <h1>my event</h1>
-    </div>
-  )
+    <Layout>
+      <h1>My events</h1>
+    </Layout>
+  );
 }
